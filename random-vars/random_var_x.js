@@ -1,6 +1,6 @@
 const RandomVarX = {
   calculate: experiment => {
-    let foursArr = experiment.filter(num => num === 4);
+    let foursArr = experiment.results.filter(num => num === 4);
     return foursArr.length;
   }
 }
